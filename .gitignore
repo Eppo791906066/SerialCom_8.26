@@ -7,8 +7,15 @@
 ./Projects/ble/*/*/*/Exe/*
 ./Projects/ble/*/*/*/List/*
 ./Projects/ble/*/*/*/Obj/*
+./Project/ble/SimpleBLEPeripheral/CC2541DB/CC2541/*
+./Project/ble/SimpleBLEPeripheral/CC2541DB/CC2541DK-MINI Keyfob/*
+Projects/ble/SimpleBLEPeripheral/CC2541DB/CC2541/*
 !.gitignore
 !*/Exe/*.hex
 !*/Exe/*.bin
 !./Projects/ble/*/*/*/Exe/*.hex
 !./Projects/ble/*/*/*/Exe/*.bin
+!./Project/ble/SimpleBLEPeripheral/CC2541DB/CC2541/Exe/*.hex
+!./Project/ble/SimpleBLEPeripheral/CC2541DB/CC2541/Exe/*.bin
+!Projects/ble/SimpleBLEPeripheral/CC2541DB/CC2541/Exe/*hex
+!Projects/ble/SimpleBLEPeripheral/CC2541DB/CC2541/Exe/*.bin
