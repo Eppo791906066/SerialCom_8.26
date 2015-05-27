@@ -167,10 +167,6 @@ void osalInitTasks( void )
   /* Application */
   serialCom_init(taskID++);
   SimpleBLEPeripheral_Init( taskID );
-
-  
-
-  
 }
 
 /*********************************************************************
