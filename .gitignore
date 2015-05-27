@@ -4,6 +4,11 @@
 *.dep
 *.wsdt
 */CC2541 DK-MINI Keyfob/*
+./Projects/ble/*/*/*/Exe/*
+./Projects/ble/*/*/*/List/*
+./Projects/ble/*/*/*/Obj/*
 !.gitignore
 !*/Exe/*.hex
 !*/Exe/*.bin
+!./Projects/ble/*/*/*/Exe/*.hex
+!./Projects/ble/*/*/*/Exe/*.bin
