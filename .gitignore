@@ -1,0 +1,9 @@
+*/Exe/*
+*/List/*
+*/Obj/*
+*.dep
+*.wsdt
+*/CC2541 DK-MINI Keyfob/*
+!.gitignore
+!*/Exe/*.hex
+!*/Exe/*.bin
