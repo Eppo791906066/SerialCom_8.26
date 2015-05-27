@@ -4,16 +4,17 @@
 *.dep
 *.wsdt
 */CC2541 DK-MINI Keyfob/*
-./Projects/ble/*/*/*/Exe/*
-./Projects/ble/*/*/*/List/*
-./Projects/ble/*/*/*/Obj/*
-./Project/ble/SimpleBLEPeripheral/CC2541DB/CC2541DK-MINI Keyfob/*
+Projects/ble/*/*/*/Exe/*
+Projects/ble/*/*/*/List/*
+Projects/ble/*/*/*/Obj/*
+Project/ble/SimpleBLEPeripheral/CC2541DB/CC2541DK-MINI Keyfob/*
 Projects/ble/SimpleBLEPeripheral/CC2541DB/CC2541/*
 Projects/ble/SimpleBLEPeripheral/CC2541DB/*.tmp
+Projects/ble/SimpleBLEPeripheral/CC2541DB/settings/*
 !.gitignore
 !*/Exe/*.hex
 !*/Exe/*.bin
-!./Projects/ble/*/*/*/Exe/*.hex
-!./Projects/ble/*/*/*/Exe/*.bin
+!Projects/ble/*/*/*/Exe/*.hex
+!Projects/ble/*/*/*/Exe/*.bin
 !Projects/ble/SimpleBLEPeripheral/CC2541DB/CC2541/Exe/SimpleBLEPeripheral.hex
 !Projects/ble/SimpleBLEPeripheral/CC2541DB/CC2541/Exe/SimpleBLEPeripheral.bin
