@@ -7,7 +7,6 @@
 ./Projects/ble/*/*/*/Exe/*
 ./Projects/ble/*/*/*/List/*
 ./Projects/ble/*/*/*/Obj/*
-./Project/ble/SimpleBLEPeripheral/CC2541DB/CC2541/*
 ./Project/ble/SimpleBLEPeripheral/CC2541DB/CC2541DK-MINI Keyfob/*
 Projects/ble/SimpleBLEPeripheral/CC2541DB/CC2541/*
 Projects/ble/SimpleBLEPeripheral/CC2541DB/*.tmp
@@ -16,11 +15,5 @@ Projects/ble/SimpleBLEPeripheral/CC2541DB/*.tmp
 !*/Exe/*.bin
 !./Projects/ble/*/*/*/Exe/*.hex
 !./Projects/ble/*/*/*/Exe/*.bin
-!./Project/ble/SimpleBLEPeripheral/CC2541DB/CC2541/Exe/*.hex
-!./Project/ble/SimpleBLEPeripheral/CC2541DB/CC2541/Exe/*.bin
-!Projects/ble/SimpleBLEPeripheral/CC2541DB/CC2541/Exe/*.hex
-!Projects/ble/SimpleBLEPeripheral/CC2541DB/CC2541/Exe/*.bin
-!./Projects/ble/SimpleBLEPeripheral/CC2541DB/CC2541/Exe/*.hex
-!./Projects/ble/SimpleBLEPeripheral/CC2541DB/CC2541/Exe/*.bin
-!/Projects/ble/SimpleBLEPeripheral/CC2541DB/CC2541/Exe/SimpleBLEPeripheral.hex
-!/Projects/ble/SimpleBLEPeripheral/CC2541DB/CC2541/Exe/SimpleBLEPeripheral.bin
+!Projects/ble/SimpleBLEPeripheral/CC2541DB/CC2541/Exe/SimpleBLEPeripheral.hex
+!Projects/ble/SimpleBLEPeripheral/CC2541DB/CC2541/Exe/SimpleBLEPeripheral.bin
