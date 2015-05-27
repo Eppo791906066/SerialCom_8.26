@@ -163,45 +163,18 @@ uint8 simpleBLEPeripheral_TaskID;   // Task ID for internal task/event processin
 gaprole_States_t gapProfileState = GAPROLE_INIT;
 
 // GAP - SCAN RSP data (max size = 31 bytes)
-static uint8 scanRspData[] =
-{
-  // complete name
-  8,   // length of this data
-  GAP_ADTYPE_LOCAL_NAME_COMPLETE,
-  'R',
-  'y',
-  'Z',
-  'e',
-  'n',
-  'T',
-  '8',
-
-  // connection interval range
-  0x05,   // length of this data
-  GAP_ADTYPE_SLAVE_CONN_INTERVAL_RANGE,
-  LO_UINT16( DEFAULT_DESIRED_MIN_CONN_INTERVAL ),   // 100ms
-  HI_UINT16( DEFAULT_DESIRED_MIN_CONN_INTERVAL ),
-  LO_UINT16( DEFAULT_DESIRED_MAX_CONN_INTERVAL ),   // 1s
-  HI_UINT16( DEFAULT_DESIRED_MAX_CONN_INTERVAL ),
-
-  // Tx power level
-  0x02,   // length of this data
-  GAP_ADTYPE_POWER_LEVEL,
-  0       // 0dBm
-};
-///* 2015-05-27 */
 //static uint8 scanRspData[] =
 //{
 //  // complete name
 //  8,   // length of this data
 //  GAP_ADTYPE_LOCAL_NAME_COMPLETE,
-//  'P',
-//  'a',
-//  'u',
-//  'l',
-//  'B',
-//  'L',
-//  'E',
+//  'R',
+//  'y',
+//  'Z',
+//  'e',
+//  'n',
+//  'T',
+//  '8',
 //
 //  // connection interval range
 //  0x05,   // length of this data
@@ -216,6 +189,33 @@ static uint8 scanRspData[] =
 //  GAP_ADTYPE_POWER_LEVEL,
 //  0       // 0dBm
 //};
+/* 2015-05-27 */
+static uint8 scanRspData[] =
+{
+  // complete name
+  8,   // length of this data
+  GAP_ADTYPE_LOCAL_NAME_COMPLETE,
+  'P',
+  'a',
+  'u',
+  'l',
+  'B',
+  'L',
+  'E',
+
+  // connection interval range
+  0x05,   // length of this data
+  GAP_ADTYPE_SLAVE_CONN_INTERVAL_RANGE,
+  LO_UINT16( DEFAULT_DESIRED_MIN_CONN_INTERVAL ),   // 100ms
+  HI_UINT16( DEFAULT_DESIRED_MIN_CONN_INTERVAL ),
+  LO_UINT16( DEFAULT_DESIRED_MAX_CONN_INTERVAL ),   // 1s
+  HI_UINT16( DEFAULT_DESIRED_MAX_CONN_INTERVAL ),
+
+  // Tx power level
+  0x02,   // length of this data
+  GAP_ADTYPE_POWER_LEVEL,
+  0       // 0dBm
+};
 ///* 2015-05-27 eppo */
 //static uint8 scanRspData[] =
 //{
