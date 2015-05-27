@@ -1,0 +1,57 @@
+[DebugChecksum]
+Checksum=1628268776
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[BreakpointUsageDialog]
+Placement=_ 578 289 1023 571
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Count=0
+[ChipconEmu]
+Stop timers on halt=0
+Leave target running=1
+[Aliases]
+A0=_ "C:\Users\Administrator\Desktop\新建文件夹\新建文件夹 (2)\SerialCom_ISR——数据上传——8.6——OK！ - 副本\Components\osal\common\OSAL_PwrMgr.c" ""
+A1=_ "E:\Bluetooth\SerialCom\Components\hal\target\CC2540EB\hal_dma.c" ""
+A2=_ "E:\Bluetooth\SerialCom\Projects\ble\SimpleBLEPeripheral\Source\OSAL_SimpleBLEPeripheral.c" ""
+A3=_ "F:\personal_item\CaiYaoZhong\Bluetooth\SerialCom\Components\hal\target\CC2540EB\_hal_uart_dma.c" ""
+A4=_ "F:\personal_item\CaiYaoZhong\Bluetooth\SerialCom\Components\osal\common\OSAL_PwrMgr.c" ""
+A5=_ "F:\personal_item\CaiYaoZhong\Bluetooth\SerialCom\Projects\ble\SimpleBLEPeripheral\Source\OSAL_SimpleBLEPeripheral.c" ""
+A6=_ "F:\personal_item\CaiYaoZhong\Bluetooth\SerialCom_WX_V1.0\Projects\ble\SimpleBLEPeripheral\Source\SimpleBLEPeripheral_Main.c" ""
+Count=7
+SuppressDialog=1

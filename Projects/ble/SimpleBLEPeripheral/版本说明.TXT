@@ -1,0 +1,4 @@
+V1.0 NoPowerSaving
+    1) No powerSaving模式
+    2）传输时间间隔7ms/10ms
+    3）无丢包

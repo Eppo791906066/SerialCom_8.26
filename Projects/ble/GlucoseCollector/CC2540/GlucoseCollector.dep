@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3142288972</fileChecksum>
+  <configuration>
+    <name>CC2540EM Master</name>
+    <outputs>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_lcd.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\gatt_uuid.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_dma.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_flash.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_key.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_adc.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\OSAL_Memory.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_startup.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\OSAL.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\gapbondmgr.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\gap.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\central.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\OSAL_Timers.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\OnBoard.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_aes.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\npi.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\osal_cbtimer.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_timer.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\osal_snv.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Exe\GlucoseCollector.d51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\OSAL_ClockBLE.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\GlucoseCollector.pbd</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_sleep.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_drivers.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_led.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\osal_bufmgr.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\OSAL_PwrMgr.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_uart.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\glucservice.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\OSAL.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\OSAL_Timers.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_lcd.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\glucose_config.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\OSAL_ClockBLE.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\osal_cbtimer.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\npi.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\OSAL_Memory.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_flash.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\glucoseCollector_Main.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\osal_bufmgr.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\osal_snv.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_key.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_led.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_dma.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\glucose_ctlpnt.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\glucose_ind.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_sleep.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_startup.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\glucoseCollector.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_timer.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\glucose_discovery.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\OSAL_glucoseCollector.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_uart.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_adc.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\OSAL_PwrMgr.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_drivers.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\hal_aes.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_clock.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2540.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\l2cap.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\gatt.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_Timers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\gatt_uuid.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\att.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_Memory.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\comdef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_board.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_key.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_drivers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\common\hal_drivers.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_defs.h</file>
+      <file>$PROJ_DIR$\..\Source\glucoseCollector.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_flash.h</file>
+      <file>$PROJ_DIR$\..\Source\glucoseCollector.h</file>
+      <file>$PROJ_DIR$\..\Source\OSAL_glucoseCollector.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_lcd.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_assert.h</file>
+      <file>$PROJ_DIR$\..\Source\glucoseCollector_Main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\osal_snv.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\services\saddr\saddr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\host\linkdb.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\controller\include\ll_timer2.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\controller\include\ll_sleep.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\controller\include\ll_math.h</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\central.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\glucose_discovery.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\glucoseCollector_Main.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\glucose_ind.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\glucose_config.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\glucservice.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\gatt_uuid.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\glucose_ctlpnt.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\glucoseCollector.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\OnBoard.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\OSAL_glucoseCollector.pbi</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\gap.r51</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Obj\gapbondmgr.r51</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DevInfo\devinfoservice.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_startup.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_aes.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_dma.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_mcu.h</file>
+      <file>$PROJ_DIR$\..\..\Libraries\CC2540DB\bin\CC2540_BLE_cent.lib</file>
+      <file>$PROJ_DIR$\..\..\Libraries\Common\bin\CC254x_BLE_HCI_TL_None.lib</file>
+      <file>$PROJ_DIR$\..\..\common\npi\npi_np\npi.c</file>
+      <file>$PROJ_DIR$\..\..\common\npi\npi_np\npi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\bcomdef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_cbtimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_bufmgr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_ClockBLE.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\mcu\cc2540\osal_snv.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Memory.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_PwrMgr.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\central.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Timers.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\central.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\gap.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\gapbondmgr.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\gapbondmgr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_PwrMgr.h</file>
+      <file>$PROJ_DIR$\..\..\common\cc2540\ti_51ew_cc2540b.xcl</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\controller\include\ll.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\hci\hci_event.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\gap.h</file>
+      <file>$PROJ_DIR$\CC2540EM Master\Exe\GlucoseCollector.hex</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\hci.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\SimpleProfile\simpleGATTprofile.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\sm.h</file>
+      <file>$PROJ_DIR$\CC2540EM Master\List\GlucoseCollector.map</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$PROJ_DIR$\..\..\Include\gapgattserver.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\host\gatt_uuid.c</file>
+      <file>$PROJ_DIR$\..\..\Include\gattservapp.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Glucose\glucservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Glucose\glucservice.h</file>
+      <file>$PROJ_DIR$\..\..\config\buildComponents.cfg</file>
+      <file>$PROJ_DIR$\buildConfig.cfg</file>
+      <file>$PROJ_DIR$\..\..\common\cc2540\OnBoard.c</file>
+      <file>$PROJ_DIR$\..\..\common\cc2540\OnBoard.h</file>
+      <file>$PROJ_DIR$\..\Source\glucose_discovery.c</file>
+      <file>$PROJ_DIR$\..\Source\glucose_config.c</file>
+      <file>$PROJ_DIR$\..\Source\glucose_ind.c</file>
+      <file>$PROJ_DIR$\..\Source\glucose_ctlpnt.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_Tasks.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\osal_bufmgr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\hci\hci_tl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\hci\hci_data.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\osal_cbTimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_led.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_board_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_sleep.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_aes.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_dma.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_sleep.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_key.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_lcd.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_led.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\CC2540EM Master\Exe\GlucoseCollector.d51</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 137 132</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 128 29 33 36 54 30 51 97 88 99 100 94 48 38 32 44 50 45 93 53 56 43 55 37 41 31 42 46 47 49 52 35 39 34 40 109 110 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\common\hal_drivers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75 105 69 158 108 73 58 107 71 70 79 157 159 160 161 65 66 67 68 64 61 127</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 75 105 69 158 108 73 58 107 71 70 79 157 159 160 161 65 66 67 68 64 61 127</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\glucoseCollector.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 68 105 73 65 66 67 64 61 127 57 147 108 58 159 157 69 158 70 79 60 63 59 129 134 80 139 141 123 131 136 126 135 77 143</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 113 68 105 73 65 66 67 64 61 127 57 147 108 58 159 157 69 158 70 79 60 63 59 129 134 80 139 141 123 131 136 126 135 77 143</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\OSAL_glucoseCollector.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105 65 66 67 68 73 64 61 152 57 71 129 113 154 134 80 161 69 158 108 58 155 153 130 156 59 131 136 139 126 60 63 141 123 77</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 105 65 66 67 68 73 64 61 152 57 71 129 113 154 134 80 161 69 158 108 58 155 153 130 156 59 131 136 139 126 60 63 141 123 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\glucoseCollector_Main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105 70 69 158 108 73 58 160 71 157 65 66 67 68 64 61 152 127 82 147 159</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 105 70 69 158 108 73 58 160 71 157 65 66 67 68 64 61 152 127 82 147 159</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_startup.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 158 108 73 105 58</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 69 158 108 73 105 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 158 108 73 105 58 71 161 69 65 66 67 68 64 61 127</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 158 108 73 105 58 71 161 69 65 66 67 68 64 61 127</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\common\npi\npi_np\npi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105 69 158 108 73 58 112 161</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 105 69 158 108 73 58 112 161</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_cbtimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65 66 67 68 105 73 64 61 152 156</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 65 66 67 68 105 73 64 61 152 156</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138 67 68 105 73 69 158 108 58 65 66 64 61 152 127 57 147 159 71</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 138 67 68 105 73 69 158 108 58 65 66 64 61 152 127 57 147 159 71</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_bufmgr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65 66 67 68 105 73 64 61 147 108 58 159 153</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 65 66 67 68 105 73 64 61 147 108 58 159 153</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_ClockBLE.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68 105 73 147 108 58 159 65 66 67 64 61 57</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 68 105 73 147 108 58 159 65 66 67 64 61 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\mcu\cc2540\osal_snv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75 105 69 158 108 73 58 76 68 65 66 67 64 61 82 80 83</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 75 105 69 158 108 73 58 76 68 65 66 67 64 61 82 80 83</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Memory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68 105 73 65 66 67 64 61 147 108 58 159 80</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 68 105 73 65 66 67 64 61 147 108 58 159 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_PwrMgr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68 105 73 147 108 58 159 65 66 67 64 61 152 127</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 68 105 73 147 108 58 159 65 66 67 64 61 152 127</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Roles\central.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 68 105 73 65 66 67 64 61 156 82 154 134 129 80 161 69 158 108 58 155 153 130 59 84 131 136 126 123</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 113 68 105 73 65 66 67 64 61 156 82 154 134 129 80 161 69 158 108 58 155 153 130 59 84 131 136 126 123</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Timers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68 105 73 147 108 58 159 65 66 67 64 61 160 69 158</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 68 105 73 147 108 58 159 65 66 67 64 61 160 69 158</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Roles\gap.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 68 105 73 131 65 66 67 64 61 136</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 113 68 105 73 131 65 66 67 64 61 136</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Roles\gapbondmgr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 68 105 73 65 66 67 64 61 82 131 136 84 60 63 59 62 134 129 80 141 139 126</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 113 68 105 73 65 66 67 64 61 82 131 136 84 60 63 59 62 134 129 80 141 139 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 19 137 132</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\ble\host\gatt_uuid.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68 105 73 65 66 67 64 61 60 113 63 59 62</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 68 105 73 65 66 67 64 61 60 113 63 59 62</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Glucose\glucservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 68 105 73 65 66 67 64 61 84 63 59 60 62 141 126 131 136 143 57</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 113 68 105 73 65 66 67 64 61 84 63 59 60 62 141 126 131 136 143 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\common\cc2540\OnBoard.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 68 105 73 147 108 58 159 65 66 67 64 61 157 69 158 70</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 113 68 105 73 147 108 58 159 65 66 67 64 61 157 69 158 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\glucose_discovery.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 68 105 73 65 66 67 64 61 57 147 108 58 159 79 69 158 60 63 59 62 77 143 101</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 113 68 105 73 65 66 67 64 61 57 147 108 58 159 79 69 158 60 63 59 62 77 143 101</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\glucose_config.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 68 105 73 65 66 67 64 61 57 147 108 58 159 79 69 158 60 63 59 62 141 143 77</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 113 68 105 73 65 66 67 64 61 57 147 108 58 159 79 69 158 60 63 59 62 141 143 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\glucose_ind.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138 67 113 68 105 73 65 66 64 61 57 147 108 58 159 79 69 158 60 63 59 62 141 143 77</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 138 67 113 68 105 73 65 66 64 61 57 147 108 58 159 79 69 158 60 63 59 62 141 143 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\glucose_ctlpnt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 68 105 73 65 66 67 64 61 79 69 158 108 58 60 63 59 143 57 77</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 113 68 105 73 65 66 67 64 61 79 69 158 108 58 60 63 59 143 57 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 158 108 73 105 58 107 69 76</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 158 108 73 105 58 107 69 76</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75 105 69 158 108 73 58</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 75 105 69 158 108 73 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_aes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65 66 67 68 105 73 64 61 106 107 69 158 108 58</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 65 66 67 68 105 73 64 61 106 107 69 158 108 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 69 158 108 73 105 58 161</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 107 69 158 108 73 105 58 161</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_sleep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105 108 73 58 69 158 159 157 70 65 66 67 68 64 61 152 127 71 80 86 113 85 87</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 105 108 73 58 69 158 159 157 70 65 66 67 68 64 61 152 127 71 80 86 113 85 87</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_key.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 73 105 58 71 75 69 158 70 65 66 67 68 64 61</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 108 73 105 58 71 75 69 158 70 65 66 67 68 64 61</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_lcd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105 79 69 158 108 73 58 65 66 67 68 64 61 147 159 80</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 105 79 69 158 108 73 58 65 66 67 68 64 61 147 159 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 73 105 58 71 157 69 158 65 66 67 68 64 61</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144 145 108 73 105 58 71 157 69 158 65 66 67 68 64 61</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

@@ -1,0 +1,6 @@
+---- g_ucSerComUartTxFlag Matches (5 in 2 files) ----
+_hal_uart_dma.c (e:\bluetooth\serialcom_wx_v1.0\components\hal\target\cc2540eb):extern uint8 g_ucSerComUartTxFlag;
+_hal_uart_dma.c (e:\bluetooth\serialcom_wx_v1.0\components\hal\target\cc2540eb):    g_ucSerComUartTxFlag = TRUE;
+serialCom.c (e:\bluetooth\serialcom_wx_v1.0\projects\ble\simplebleperipheral\source):uint8 g_ucSerComUartTxFlag = FALSE;
+serialCom.c (e:\bluetooth\serialcom_wx_v1.0\projects\ble\simplebleperipheral\source):        if (TRUE == g_ucSerComUartTxFlag)
+serialCom.c (e:\bluetooth\serialcom_wx_v1.0\projects\ble\simplebleperipheral\source):            g_ucSerComUartTxFlag = FALSE;
