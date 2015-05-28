@@ -271,7 +271,8 @@ static uint8 advertData[] =
 
 // GAP GATT Attributes
 //static uint8 attDeviceName[GAP_DEVICE_NAME_LEN] = "Simple BLE Peripheral";
-static uint8 attDeviceName[GAP_DEVICE_NAME_LEN] = "RyZenT8";
+//static uint8 attDeviceName[GAP_DEVICE_NAME_LEN] = "RyZenT8";
+static uint8 attDeviceName[GAP_DEVICE_NAME_LEN] = "PaulBLE";
 
 /*********************************************************************
  * LOCAL FUNCTIONS
