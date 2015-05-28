@@ -1343,12 +1343,13 @@
           <state>POWER_SAVING</state>
           <state>xPLUS_BROADCASTER</state>
           <state>HAL_LCD=FALSE</state>
-          <state>HAL_LED=FALSE</state>
+          <state>HAL_LED=TRUE</state>
           <state>HAL_KEY=FALSE</state>
           <state>HAL_UART=TRUE</state>
           <state>HAL_UART_TRANS=TRUE</state>
           <state>DMA_PM=FALSE</state>
           <state>HAL_UART_TX_BY_ISR=TRUE</state>
+          <state>SIMPLEPROFILE_LED=TRUE</state>
         </option>
         <option>
           <name>CCPreprocFile</name>

@@ -813,6 +813,31 @@ static void simpleProfileChangeCB( uint8 paramID )
         
       break;
 
+#if SIMPLEPROFILE_LED
+    case SIMPLEPROFILE_CHAR6:
+      SimpleProfile_GetParameter(SIMPLEPROFILE_CHAR6, (uint8 *)aucTemp);
+//      serialCom_Write(aucTemp, simpleProfileCharLen);
+      serialCom_Write(aucTemp, 1);
+      if(*aucTemp & HAL_LED_1)
+      {
+        HalLedSet(HAL_LED_1,HAL_LED_MODE_ON);
+      }
+      else
+      {
+        HalLedSet(HAL_LED_1,HAL_LED_MODE_OFF);
+      }
+      
+      if(*aucTemp & HAL_LED_2)
+      {
+        HalLedSet(HAL_LED_2,HAL_LED_MODE_ON);
+      }
+      else
+      {
+        HalLedSet(HAL_LED_2,HAL_LED_MODE_OFF);
+      }
+      break;
+#endif
+      
     default:
       // should not reach here!
      // while (1);

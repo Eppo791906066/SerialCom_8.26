@@ -60,6 +60,11 @@ extern "C"
 //#define SIMPLEPROFILE_CHAR4                   3  // RW uint8 - Profile Characteristic 4 value
 //#define SIMPLEPROFILE_CHAR5                   4  // RW uint8 - Profile Characteristic 4 value
   
+#if SIMPLEPROFILE_LED
+  #define SIMPLEPROFILE_CHAR6                   5
+  #define SIMPLEPROFILE_CHAR6_UUID               0xFFF6
+#endif
+  
 // Simple Profile Service UUID
 //#define SIMPLEPROFILE_SERV_UUID               0xFFF0
 #define SIMPLEPROFILE_SERV_UUID               0xFEE7
